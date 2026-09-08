@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineMatch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="icon" type="image/x-icon" href="pngwing.com.png">
+</head>
+<body>
+  <main>
+    <h1>CineMatch 🎥</h1>
+    <p>Óla somos da CineMatch e através desse formulário gostariamos de saber suas preferências de filmes e séries !</p>
+    <form id="formulario">
+      <label for="nome">Qual seu nome ou apelido?</label>
+      <input id="nome" type="text" required>
+<label for="filme-serie">Qual sua preferência Filmes ou Séries?</label>
+<select id="filme-serie" required>
+        <option value="">Selecione</option>
+        <option>Filmes</option>
+        <option>Séries</option>
+      </select>
+      <label for="genero">Gênero favorito</label>
+      <select id="genero" required>
+        <option value="">Selecione</option>
+        <option>Ação 👮‍♂️</option>
+        <option>Comédia 🤣</option>
+        <option>Drama 😭</option>
+        <option>Ficção 👽</option>
+        <option>Terror 👻</option>
+      </select>
+      <label for="canais-app">Quais são seus canais ou aplicativos favoritos?</label>
+      <select id="canais-app" required>
+              <option value="">Selecione</option>
+              <option>Netflix</option>
+              <option>Amazon prime</option>
+              <option>HBO</option>
+              <option>Apple</option>
+              <option>Paramont</option>
+              <option>Globoplay</option>
+            </select>
+      <label for="filme">Qual é seu filme ou série favorita?</label>
+      <input id="filme" type="text" required>
+      <label for="audio">Qual a sua preferência de áudio?</label>
+      <select id="audio" required>
+        <option value="">Selecione</option>
+        <option>Dublado</option>
+        <option>Legendado</option>
+        <option>Inglês</option>
+      </select>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="resultado"></p>
+  </main>
+</body>
+</html>
