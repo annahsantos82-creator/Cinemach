@@ -1,7 +1,7 @@
 body {
 margin: 0;
 padding: 20px;
-background: #5763E7;
+background: #000000;
 font-family: arial, sans-serif;
 
 }
@@ -10,7 +10,7 @@ main {
 max-width: 450px;
 margin: auto;
 padding: 25px;
-background: #785095;
+background: #1999E0;
 border-radius: 8px;
 }
 
